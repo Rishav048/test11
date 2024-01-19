@@ -1,0 +1,43 @@
+.container{
+    margin: auto;
+    width: 35%;
+    background-color: rgb(32, 137, 42);
+    min-height: 800px;
+    margin-top: 5rem;
+}
+
+
+.draw-btn{
+    width: 5rem;
+    height:6rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: none;
+}
+.card-wrapper{
+   
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 0.5rem;
+}
+
+.card{
+    width:4rem;
+    height:5rem;
+    border:2px solid rgb(240, 13, 13);
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+
+}
+
+.icon-holder{
+    position: absolute;
+    top:40%;
+    right: 40%;
+}
